@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="graphbar-gilsama",
+    name="graphbar",
     version="0.0.1",
     author="Manuel Gil",
     author_email="manuelgilsitio@gmail.com",
