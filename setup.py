@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="graphbar",
-    version="0.0.1",
+    version="0.0.2",
     author="Manuel Gil",
     author_email="manuelgilsitio@gmail.com",
     description="Make bar graph by groups",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/manuelgilm/graphbar",
-    packages=setuptools.find_packages(),
+    packages=["graphbar"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

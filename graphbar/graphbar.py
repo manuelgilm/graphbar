@@ -1,33 +1,26 @@
 import matplotlib.pyplot as plt 
 import numpy as np 
 
+
+
 def plot_bars_by_group(grouped_data,colors,edgecolor=None,property_name="Data by group",ylabel="Value",figsize=(16,6),annotations = True):
     
     """Make bar graph by group.
-
     Params:
     ------
     
     grouped_data: (dict) 
         Each key represents a group, each group is a dictionary, where each key is a characteristic with its value.
-
     colors: (list)
         List with the colors of each characteristic
-
     edgecolor: (str)
         Color of the border of the rectangle, if it is None the border will be equeal to the color of the rectangle
-
     property_name: (str) Chart title 
-
     ylabel: (str) Y axis name
-
     figsize: (tuple) Chart dimensions
-
     annotations (boolean) If each bar shows the value
-
     Output:
     ------
-
     Bar graph by group
     
     """
